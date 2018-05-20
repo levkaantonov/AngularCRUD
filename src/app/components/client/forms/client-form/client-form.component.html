@@ -1,0 +1,38 @@
+<div class="container">
+    <form [formGroup]="clientForm" class="form-group">
+        <div class="form-group">
+            <label for="fullName">Полное имя</label>
+            <input type="text" class="form-control" placeholder="Иванов Иван Иванович" id="fullName" formControlName="fullName">
+        </div>
+        <div class="form-group">
+            <label for="passportId">Номер паспорта</label>
+            <input type="text" class="form-control" placeholder="00№00000000" id="passportId" formControlName="passportId">
+        </div>
+
+        <div class="form-group">
+            <label for="mail">Email</label>
+            <input type="email" class="form-control" placeholder="example@mail.ru" id="mail" formControlName="mail">
+        </div>
+
+        <div class="form-group">
+            <label for="phoneNumber">Номер телефона</label>
+            <input type="phone" class="form-control" placeholder="0 000 000000" id="phoneNumber" formControlName="phoneNumber">
+        </div>
+        <div class="form-group">
+            <label for="typeClient">Тип клиента</label>
+            <select type="text" class="form-control" placeholder="Выбрать" id="typeClient" formControlName="typeClient">
+                <option>Вкладчик</option>
+                <option>Заемщик</option>
+                <option selected>Возможный клиент</option>
+            </select>
+        </div>
+        <div class="btn-group">
+            <button type="submit" [disabled]="!clientForm.valid" class="btn btn-primary" (click)="submitClient()">
+                   <i class="material-icons">done</i>
+            </button>
+            <button type="submit" class="btn btn-primary" (click)="onBack()">
+                  <i class="material-icons">undo</i>
+             </button>
+        </div>
+    </form>
+</div>

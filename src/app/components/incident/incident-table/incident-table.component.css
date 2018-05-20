@@ -1,0 +1,27 @@
+.bg-primary {
+    border-radius: .3em;
+    padding: .1em .1em .1em 1.1em;
+    margin: 1em 0 .5em 0;
+    text-align: center;
+}
+
+.form-group {
+    margin-top: 1em;
+}
+
+.btn-group-justified {
+    margin-bottom: .5em;
+    width: 100%;
+}
+
+.table-hover {
+    text-align: center;
+}
+
+.table-hover thead tr th {
+    text-align: center;
+}
+
+.container {
+    margin-top: 3%;
+}

@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    font: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    /* border-radius */
+    -webkit-border-radius: .4em;
+    -moz-border-radius: .4em;
+    border-radius: .4em;
+    /* box-shadow */
+    -webkit-box-shadow: 0 0 2em gray;
+    -moz-box-shadow: 0 0 2em gray;
+    box-shadow: 0 0 2em gray;
+    width: 98%;
+    margin: 0% 1% 1% 1%;
+}

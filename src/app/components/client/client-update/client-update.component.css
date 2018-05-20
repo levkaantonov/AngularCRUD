@@ -1,0 +1,9 @@
+app-client-form {
+    float: left;
+    width: 66%;
+}
+
+app-incident-table {
+    float: left;
+    width: 33%;
+}

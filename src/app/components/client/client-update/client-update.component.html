@@ -1,0 +1,4 @@
+<div class="wrapper">
+    <app-client-form [indexOfClient]="index" (isPossibleCustomer)="setDisabled()"></app-client-form>
+    <app-incident-table [indexOfClient]="index" [isPossibleCustomer]="isPossibleCustomer"></app-incident-table>
+</div>

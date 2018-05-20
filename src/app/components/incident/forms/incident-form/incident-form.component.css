@@ -1,0 +1,36 @@
+input.ng-invalid {
+    border-left: .3em solid red;
+}
+
+input.ng-valid {
+    border-left: .3em solid green;
+}
+
+select.ng-invalid {
+    border-left: .3em solid red;
+}
+
+select.ng-valid {
+    border-left: .3em solid green;
+}
+
+textarea.ng-invalid {
+    border-left: .3em solid red;
+}
+
+textarea.ng-valid {
+    border-left: .3em solid green;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.form-group {
+    margin-top: 1em;
+}
+
+.container {
+    margin-top: 1%;
+}
